@@ -1,2 +1,5 @@
 ﻿# skin_fitneess
-Pagina Web Diseñada para Ventas
+Pagina Web 
+Skinfitness busca integrar el cuidado de la piel con la moda deportiva y casual. Este es  un espacio donde puedes encontrar productos de belleza como desmaquillantes, limpiadores y productos para el cuidado de la piel, junto con una amplia selección de ropa deportiva y casual tanto femenica como masculina  que promueve un estilo de vida activo, saludable y cómodo. La tienda no solo se enfoca en la estética y la salud de la piel, sino también en proporcionar ropa de alta calidad que se adapte a los diferentes momentos del día.
+
+El maquillaje es una forma de expresión personal, que permite transformar, resaltar o suavizar las características faciales según el estilo y la ocasión. Con la amplia variedad de productos disponibles,esta es una herramienta poderosa para quienes buscan destacar su belleza de una forma creativa.

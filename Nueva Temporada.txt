@@ -1,3 +1,7 @@
 #Calzado Femenino
+Casual 
+Deportivo
 
 #Calzado Masculino
+Casual
+Deportivo
