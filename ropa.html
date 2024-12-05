@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora nuestra colección de ropa casual, formal y deportiva.">
+    <title>Ropa | Skin Fitness Store</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Skin Fitness Store - Ropa</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Inicio</a></li>
+                <li><a href="{{ url_for('ropa') }}">Ropa</a></li>
+                <li><a href="{{ url_for('maquillaje') }}">Maquillaje</a></li>
+                <li><a href="{{ url_for('skincare') }}">Skincare</a></li>
+                <li><a href="{{ url_for('contacto') }}">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Ropa para Todos los Estilos</h2>
+        <div class="productos">
+            <div class="producto">
+                <img src="{{ url_for('static', filename='images/ropa-casual.jpg') }}" alt="Ropa Casual">
+                <p>Ropa Casual</p>
+            </div>
+            <div class="producto">
+                <img src="{{ url_for('static', filename='images/ropa-formal.jpg') }}" alt="Ropa Formal">
+                <p>Ropa Formal</p>
+            </div>
+            <div class="producto">
+                <img src="{{ url_for('static', filename='images/ropa-deportiva.jpg') }}" alt="Ropa Deportiva">
+                <p>Ropa Deportiva</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Skin Fitness Store. Todos los derechos reservados.</p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

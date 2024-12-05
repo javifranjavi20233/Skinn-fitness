@@ -1,1 +1,88 @@
 <h1>Página de Productos</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda online de ropa, maquillaje y skincare. Ropa casual, formal, deportiva y productos de belleza.">
+    <title>Skin Fitness Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Skin Fitness Store</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#ropa">Ropa</a></li>
+                <li><a href="#maquillaje">Maquillaje</a></li>
+                <li><a href="#skincare">Skincare</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="ropa">
+        <h2>Ropa para Todos los Estilos</h2>
+        <div class="productos">
+            <div class="producto">
+                <img src="ropa-casual.jpg" alt="Ropa Casual">
+                <p>Ropa Casual</p>
+            </div>
+            <div class="producto">
+                <img src="ropa-formal.jpg" alt="Ropa Formal">
+                <p>Ropa Formal</p>
+            </div>
+            <div class="producto">
+                <img src="ropa-deportiva.jpg" alt="Ropa Deportiva">
+                <p>Ropa Deportiva</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="maquillaje">
+        <h2>Maquillaje de Calidad</h2>
+        <p>Descubre nuestra colección de productos de maquillaje para cada ocasión.</p>
+        <div class="productos">
+            <div class="producto">
+                <img src="maquillaje.jpg" alt="Maquillaje">
+                <p>Maquillaje</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skincare">
+        <h2>Cuidados para tu Piel</h2>
+        <p>Productos de skincare para mantener tu piel sana y radiante.</p>
+        <div class="productos">
+            <div class="producto">
+                <img src="skincare.jpg" alt="Skincare">
+                <p>Skincare</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form action="#" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Skin Fitness Store. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
